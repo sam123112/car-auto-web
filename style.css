@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+  background-color: #ececec;
+}
+
+.car {
+  text-decoration: none;
+  color: #ececec;
+  font-weight: 500;
+  font-size: 13px;
+  justify-content: space-between;
+
+
+}
+
+* {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  margin-inline: 10px;
+
+}
+
+.nav2 {
+  background-color: #f3f3f3;
+  width: 900px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-block: 20px;
+}
+
+.rice{
+  font-size: 145px;
+  letter-spacing: 14px;
+}
+
+.luxury {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rice2{
+  text-align: left;
+}
+
+.nav2 img {
+  margin-right: 270px;
+
+}
+
+.button1 {
+  background-color: #4a72ff;
+  padding-inline: 35px;
+  padding-block: 10px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  
+}
+
+h1 {
+  color: black;
+  font-size: 110px;
+  text-align: center;
+  letter-spacing: 20px;
+  line-height: 40px;
+}
+
+.photo {
+  justify-content: center;
+  display: flex;
+  width: 900px;
+  height: 400px;
+  background-color: bisque;
+  border-radius: 1000px;
+  background-image: url(./car.jpg);
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0px 0px 12px black;
+}
+
+.car1 {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right {
+  background-color: black;
+  width: 80px;
+  height: 7px;
+  border-radius: 10px;
+}
+
+.left {
+  background-color: #525252;
+  width: 60px;
+  height: 7px;
+  border-radius: 10px;
+}
+
+.size {
+  background-color: #848484;
+  width: 40px;
+  height: 7px;
+  border-radius: 10px;
+}
+
+.slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+h1{
+  letter-spacing: 8px;
+  line-height: 60px;
+  
+}
+/* CTA Section */
+.ctasectiontext {
+  width: 100%;
+}
+
+.ctasection {
+  padding-top: 100px;
+  margin-inline: 20px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.ctasectiontext h1 {
+  color: #323232;
+  width: 80%;
+  font-size: 60px;
+  margin-bottom: 0px;
+}
+
+.ctasectiontext p {
+  color: #666666;
+  font-size: 20px;
+  width: 60%;
+  margin-right: 0px;
+}
+
+.qualitycars {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.qualitycars h4 {
+  font-size: 20px;
+}
+
+.svgs {
+  padding-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+
+.qualitycars1 {
+  width: 350px;
+}
+
+.qualitycars1 p {
+  width: 88%;
+}
+
+.ctabuttons {
+  padding-top: 35px;
+  display: flex;
+
+  
+}
+
+.button1 {
+  border: none;
+  color: #ffffff;
+  /* font-weight: 600; */
+  background-color: #4a72ff;
+  border-radius: 30px;
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 20px;
+}
+
+.button2 {
+  border: none;
+  color: black;
+  background-color: #ececec;
+  border-radius: 30px;
+  font-weight: 600;
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 20px;
+}
+
+.ctadiv {
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+}
+
+.ctasectionimgs img {
+  width: 600px;
+  height: 500px;
+  border-radius: 80px;
+  padding-top: 18px;
+
+}
+h4{
+  color: black;
+}
+.Discover{
+  background-color: #ececec;
+
+}
+.discov{
+  color: #525252;
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+
+.feature1{
+  color: black;
+  margin-top: 0px;
+  margin-bottom: 10px;
+   font-size: 90px;
+   letter-spacing: 5px;
+}
+.explore{
+  color: #323232;
+  margin-top: 10px;
+}
+.explore1{
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.collage{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.sedan{
+  background-color: #ffffff;
+  width: 300px;
+  height: 460px;
+  border-radius: 45px;
+}
+.suv{
+  background-color: #ffffff;
+  width: 300px;
+  height: 460px;
+  border-radius: 45px;
+}
+.coupe{
+  background-color: #ffffff;
+  width: 300px;
+  height: 460px;
+  border-radius: 45px;
+}
+
+
