@@ -41,7 +41,7 @@ a {
   padding-block: 20px;
 }
 
-.rice{
+.rice {
   font-size: 145px;
   letter-spacing: 14px;
 }
@@ -52,7 +52,7 @@ a {
   align-items: center;
 }
 
-.rice2{
+.rice2 {
   text-align: left;
 }
 
@@ -68,7 +68,7 @@ a {
   border-radius: 20px;
   border: none;
   color: white;
-  
+
 }
 
 h1 {
@@ -127,11 +127,13 @@ h1 {
   margin-top: 20px;
   gap: 10px;
 }
-h1{
+
+h1 {
   letter-spacing: 8px;
   line-height: 60px;
-  
+
 }
+
 /* CTA Section */
 .ctasectiontext {
   width: 100%;
@@ -178,17 +180,19 @@ h1{
 
 .qualitycars1 {
   width: 350px;
+  margin-left: 0;
 }
 
 .qualitycars1 p {
   width: 88%;
+  margin-right: 0px;
 }
 
 .ctabuttons {
   padding-top: 35px;
   display: flex;
 
-  
+
 }
 
 .button1 {
@@ -217,71 +221,142 @@ h1{
 
 .ctadiv {
   display: flex;
-  justify-content:center ;
+  justify-content: center;
   align-items: center;
 }
 
 .ctasectionimgs img {
-  width: 600px;
+  width: 500px;
   height: 500px;
   border-radius: 80px;
   padding-top: 18px;
 
 }
-h4{
+
+h4 {
   color: black;
 }
-.Discover{
+
+.Discover {
   background-color: #ececec;
 
 }
-.discov{
+
+.discov {
   color: #525252;
   margin-bottom: 10px;
   font-size: 40px;
 }
 
-.feature1{
+.feature1 {
   color: black;
   margin-top: 0px;
   margin-bottom: 10px;
-   font-size: 90px;
-   letter-spacing: 5px;
+  font-size: 90px;
+  letter-spacing: 5px;
 }
-.explore{
+
+.explore {
   color: #323232;
   margin-top: 10px;
 }
-.explore1{
+
+.explore1 {
   display: flex;
   flex-direction: column;
   font-size: 30px;
   justify-content: center;
   align-items: center;
 }
-.collage{
+
+.collage {
   display: flex;
   gap: 30px;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
-.sedan{
+
+.sedan {
   background-color: #ffffff;
   width: 300px;
   height: 460px;
   border-radius: 45px;
+  display: flex;
+  flex-direction: column;
 }
-.suv{
+
+.sedan img {
+  border-radius: 45PX;
+  height: 350PX;
+}
+
+.suv {
   background-color: #ffffff;
   width: 300px;
-  height: 460px;
-  border-radius: 45px;
-}
-.coupe{
-  background-color: #ffffff;
-  width: 300px;
-  height: 460px;
+  height: 480px;
   border-radius: 45px;
 }
 
+.coupe {
+  background-color: #ffffff;
+  width: 300px;
+  height: 480px;
+  border-radius: 45px;
+}
+
+.coupe img {
+  border-radius: 45px;
+  height: 350px;
+  width: 300px;
+}
+
+.partition h4 {
+  font-size: 33px;
+  display: flex;
+  justify-content: center;
+  margin-top: 2px;
+  margin-bottom: 1px;
+}
+.partition h6{
+  color: grey;
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+.partition h5{
+  color: black;
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  font-size: 24px;
+}
+.suv img{
+  border-radius: 45px;
+  height: 360px;
+  width: 300px;
+}
+.sedan1{
+  background-color: #ffffff;
+  width: 300px;
+  height: 460px;
+  border-radius: 45px;
+}
+.sedan2{
+  display: flex; 
+  gap: 30px;
+}
+.house{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 30px;
+}
+.sedan1 img{
+  border-radius: 45px;
+  height: 350px;
+  width: 300px;
+}
 
